@@ -2,8 +2,8 @@
   "machineName": "Snack- & Getränkeautomat",
   "location": "Vor der Gaststätte",
   "example": false,
-  "updatedAt": "2026-11-01T12:04:20.962Z",
-  "lastRefill": null,
+  "updatedAt": "2026-11-01T13:00:35.145Z",
+  "lastRefill": "2026-10-30T10:00:00+01:00",
   "nextRefill": null,
   "items": [
     {
