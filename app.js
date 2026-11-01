@@ -3,7 +3,7 @@
   const REFRESH_MS = 45000;
   const TZ = 'Europe/Berlin';
   const LABEL = { verfuegbar: 'verfügbar', wenige: 'nur noch wenige', ausverkauft: 'ausverkauft' };
-  const LOW_STOCK = 3; // identisch zu lib/store.js
+  const LOW_STOCK = 2; // identisch zu lib/store.js
   // Statuslogik exakt wie lib/store.js -> status(qty)
   const status = qty => (!qty || qty <= 0) ? 'ausverkauft' : (qty <= LOW_STOCK ? 'wenige' : 'verfuegbar');
   // Rohdaten aus inventory.json so aufbereiten wie früher server.js (/api/bestand)
@@ -59,8 +59,9 @@
 
     const cats = ['Alle', ...new Set(data.items.map(i => i.category).filter(Boolean)), 'Verfügbar'];
     if (!cats.includes(filter)) filter = 'Alle';
-    $('filters').hidden = cats.length <= 2;
-    $('filters').innerHTML = cats.map(c => `<button type="button" data-cat="${esc(c)}" aria-pressed="${c === filter}">${esc(c)}</button>`).join('');
+    filter = 'Alle';
+    $('filters').hidden = true;
+    $('filters').innerHTML = '';
 
     const items = data.items.filter(i => filter === 'Alle' || (filter === 'Verfügbar' ? i.status !== 'ausverkauft' : i.category === filter));
     const list = $('list');
@@ -70,7 +71,7 @@
         <div class="emoji" aria-hidden="true">${esc(i.emoji || '🛒')}</div>
         <div class="info">
           <p class="name">${esc(i.name)}</p>
-          <p class="meta">${i.fach ? 'Fach ' + esc(i.fach) : ''}${i.fach && i.category ? ' · ' : ''}${esc(i.category || '')}</p>
+          <p class="meta">${i.fach ? 'Fach ' + esc(i.fach) : ''}</p>
           <span class="pill ${i.status}">${LABEL[i.status]}</span>
         </div>
         <div class="right">
