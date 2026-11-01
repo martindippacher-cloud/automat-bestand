@@ -1,0 +1,4 @@
+inventory.json.tmp
+node_modules/
+*.log
+screenshot.png

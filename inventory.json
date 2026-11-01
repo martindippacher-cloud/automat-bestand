@@ -1,0 +1,80 @@
+{
+  "machineName": "Snack- & Getränkeautomat",
+  "location": "Vor der Gaststätte",
+  "example": false,
+  "updatedAt": "2026-11-01T12:04:20.962Z",
+  "items": [
+    {
+      "name": "Sauerbraten",
+      "fach": "14",
+      "price": 10.5,
+      "quantity": 3,
+      "category": "Hauptgerichte",
+      "emoji": "🍖",
+      "updatedAt": "2026-11-01T12:04:20.675Z"
+    },
+    {
+      "name": "Kalbsbraten",
+      "fach": "18",
+      "price": 11,
+      "quantity": 3,
+      "category": "Hauptgerichte",
+      "emoji": "🥩",
+      "updatedAt": "2026-11-01T12:04:20.720Z"
+    },
+    {
+      "name": "Wirsing",
+      "fach": "22",
+      "price": 4.9,
+      "quantity": 2,
+      "category": "Beilagen",
+      "emoji": "🥬",
+      "updatedAt": "2026-11-01T12:04:20.762Z"
+    },
+    {
+      "name": "Blaukraut",
+      "fach": "12",
+      "price": 3,
+      "quantity": 1,
+      "category": "Beilagen",
+      "emoji": "🥬",
+      "updatedAt": "2026-11-01T12:04:20.802Z"
+    },
+    {
+      "name": "Klöße",
+      "fach": "10",
+      "price": 4,
+      "quantity": 1,
+      "category": "Beilagen",
+      "emoji": "🥟",
+      "updatedAt": "2026-11-01T12:04:20.843Z"
+    },
+    {
+      "name": "Salat",
+      "fach": "24",
+      "price": 3.5,
+      "quantity": 1,
+      "category": "Beilagen",
+      "emoji": "🥗",
+      "updatedAt": "2026-11-01T12:04:20.884Z"
+    },
+    {
+      "name": "Glasflasche Getränk",
+      "fach": "26",
+      "price": 2.5,
+      "quantity": 6,
+      "category": "Getränke",
+      "emoji": "🍺",
+      "updatedAt": "2026-11-01T12:04:20.925Z"
+    },
+    {
+      "name": "Wasser",
+      "fach": "32",
+      "price": 2,
+      "quantity": 1,
+      "category": "Getränke",
+      "emoji": "💧",
+      "updatedAt": "2026-11-01T12:04:20.962Z"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Live-Bestand – Automat</title>
+  <meta name="description" content="Was ist gerade im Automaten? Aktueller Live-Bestand.">
+  <meta name="theme-color" content="#1f6f5c">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥤</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Live-Bestand</p>
+      <h1 id="machine">Unser Automat</h1>
+      <p id="location" class="sub"></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div id="example" class="notice" hidden></div>
+
+    <section class="bar" aria-live="polite">
+      <div>
+        <span class="muted">Zuletzt aktualisiert</span>
+        <strong id="updated">–</strong>
+      </div>
+      <div class="summary" id="summary"></div>
+    </section>
+
+    <nav class="filters" id="filters" aria-label="Kategorien"></nav>
+
+    <ul id="list" class="list" aria-busy="true">
+      <li class="skeleton"></li><li class="skeleton"></li><li class="skeleton"></li>
+    </ul>
+
+    <p id="error" class="error" hidden>Bestand konnte gerade nicht geladen werden. Wir versuchen es gleich erneut.</p>
+  </main>
+
+  <footer class="wrap foot">
+    <p>Angaben ohne Gewähr – der Bestand kann sich jederzeit ändern. Seite aktualisiert sich automatisch.</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
