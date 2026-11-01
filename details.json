@@ -1,0 +1,260 @@
+{
+  "_info": "Etikett-Angaben (Gewicht, Zutaten, Hinweise) je Produkt. Zuordnung zu inventory.json: zuerst item.detailKey, sonst Name (Groß-/Kleinschreibung, Umlaute, Leer-/Bindestriche egal) gegen Schlüssel oder 'aliases'. Texte wörtlich wie auf dem Etikett gedruckt.",
+  "hersteller": "Gaststätte Dippacher, Dorfstraße 23, 91336 Heroldsbach/Poppendorf",
+  "hinweis": "Angaben laut Etikett, maßgeblich ist das Etikett auf der Packung.",
+  "products": {
+    "sauerbraten": {
+      "labelName": "Sauerbraten",
+      "aliases": [
+        "Sauerbraten"
+      ],
+      "icon": "icons/sauerbraten.svg",
+      "weight": "360 g",
+      "ingredients": "Rinder Semerrolle, Soße (Wasser, Essig, Speisesalz, Zucker, Gewürze (Karotten, Pastinaken, Lauch, Sellerie, Petersilie, Senf, Wacholder, Zitronenschalen, Koriander, Pfeffer, Nelken, Piment, Zwiebeln, Lorbeer, Zimt, Knoblauch), Sauerrahm, Sahne, Reismehl, Palmfett, Karamell, Maltodextrin.)",
+      "allergens": [
+        {
+          "name": "Sellerie",
+          "words": [
+            "Sellerie"
+          ]
+        },
+        {
+          "name": "Senf",
+          "words": [
+            "Senf"
+          ]
+        },
+        {
+          "name": "Milch",
+          "words": [
+            "Sauerrahm",
+            "Sahne"
+          ]
+        }
+      ],
+      "hints": [
+        "Bei +2°C bis +7°C mindestens haltbar bis: siehe Packung",
+        "Die Schale für den Sauerbraten ist äußerst vielseitig: Sie ermöglicht ein sicheres Einfrieren des Bratens bis -40 °C, ein schonendes Garen im Ofen bei 220 °C ohne Folie, sowie ein bequemes Erhitzen in der Mikrowelle, da sie mikrowellengeeignet ist"
+      ],
+      "source": "01M6BNFP8WEKC91JMZVZN5NHXY.pdf"
+    },
+    "sauerbraten-anschnitte": {
+      "labelName": "Sauerbraten-Anschnitte",
+      "aliases": [
+        "Sauerbraten-Anschnitte",
+        "Sauerbratenanschnitte",
+        "Sauerbraten Anschnitte"
+      ],
+      "icon": "icons/sauerbraten.svg",
+      "weight": "330 g",
+      "ingredients": "Rinder Semerrolle, Soße (Wasser, Essig, Speisesalz, Zucker, Gewürze (Karotten, Pastinaken, Lauch, Sellerie, Petersilie, Senf, Wacholder, Zitronenschalen, Koriander, Pfeffer, Nelken, Piment, Zwiebeln, Lorbeer, Zimt, Knoblauch), Sauerrahm, Sahne, Reismehl, Palmfett, Karamell, Maltodextrin.)",
+      "allergens": [
+        {
+          "name": "Sellerie",
+          "words": [
+            "Sellerie"
+          ]
+        },
+        {
+          "name": "Senf",
+          "words": [
+            "Senf"
+          ]
+        },
+        {
+          "name": "Milch",
+          "words": [
+            "Sauerrahm",
+            "Sahne"
+          ]
+        }
+      ],
+      "hints": [
+        "Bei +2°C bis +7°C mindestens haltbar bis: siehe Packung",
+        "Die Schale für den Sauerbraten ist äußerst vielseitig: Sie ermöglicht ein sicheres Einfrieren des Bratens bis -40 °C, ein schonendes Garen im Ofen bei 220 °C ohne Folie, sowie ein bequemes Erhitzen in der Mikrowelle, da sie mikrowellengeeignet ist"
+      ],
+      "source": "01M6BNFR335DWJE6YY3GM76KJ5.pdf"
+    },
+    "kalbsrahmbraten": {
+      "labelName": "Kalbsrahmbraten",
+      "aliases": [
+        "Kalbsrahmbraten",
+        "Kalbsbraten"
+      ],
+      "icon": "icons/kalbsrahmbraten.svg",
+      "weight": "350 g",
+      "ingredients": "Kalbstafelspitz, Soße (Wasser, Sahne, Speisesalz, Gewürze (Karotten, Lauch, Sellerie, Petersilie, Senf, Pfeffer, Macis, Zwiebelpulver, Lorbeer, Knoblauch), Tomatenpulver, modifizierte Stärke, Weingeistessig, Reismehl, Palmfett.)",
+      "allergens": [
+        {
+          "name": "Milch",
+          "words": [
+            "Sahne"
+          ]
+        },
+        {
+          "name": "Sellerie",
+          "words": [
+            "Sellerie"
+          ]
+        },
+        {
+          "name": "Senf",
+          "words": [
+            "Senf"
+          ]
+        }
+      ],
+      "hints": [
+        "Bei +2°C bis +7°C mindestens haltbar bis: siehe Packung",
+        "Die Schale für den Kalbsbraten ist äußerst vielseitig: Sie ermöglicht ein sicheres Einfrieren des Bratens bis -40 °C, ein schonendes Garen im Ofen bei 220 °C ohne Folie, sowie ein bequemes Erhitzen in der Mikrowelle, da sie mikrowellengeeignet ist."
+      ],
+      "source": "01M6BNFP99EJNYKXJVYJ0ATHMJ.pdf"
+    },
+    "kalbsrahmbraten-anschnitte": {
+      "labelName": "Kalbsrahmbraten Anschnitte",
+      "aliases": [
+        "Kalbsrahmbraten Anschnitte",
+        "Kalbsrahmbraten-Anschnitte",
+        "Kalbsbratenanschnitte",
+        "Kalbsbraten Anschnitte"
+      ],
+      "icon": "icons/kalbsrahmbraten-anschnitte.svg",
+      "weight": "320 g",
+      "ingredients": "Kalbstafelspitz, Soße (Wasser, Sahne, Speisesalz, Gewürze (Karotten, Lauch, Sellerie, Petersilie, Senf, Pfeffer, Macis, Zwiebelpulver, Lorbeer, Knoblauch), Tomatenpulver, modifizierte Stärke, Weingeistessig, Reismehl, Palmfett.)",
+      "allergens": [
+        {
+          "name": "Milch",
+          "words": [
+            "Sahne"
+          ]
+        },
+        {
+          "name": "Sellerie",
+          "words": [
+            "Sellerie"
+          ]
+        },
+        {
+          "name": "Senf",
+          "words": [
+            "Senf"
+          ]
+        }
+      ],
+      "hints": [
+        "Bei +2°C bis +7°C mindestens haltbar bis: siehe Packung",
+        "Der Kalbsbraten im Vakuumbeutel kann problemlos eingefroren werden"
+      ],
+      "source": "01M6BNFPB32KE83MJM97BGT5MX.pdf"
+    },
+    "wirsing": {
+      "labelName": "2 Portionen Wirsing",
+      "aliases": [
+        "Wirsing"
+      ],
+      "icon": "icons/wirsing.svg",
+      "weight": "400 g",
+      "portions": "2 Portionen",
+      "ingredients": "Wirsing, Wasser, Butter, Weizenmehl, Zwiebeln, Sahne, Salz, Pfeffer, Muskatnuss",
+      "allergens": [
+        {
+          "name": "Milch",
+          "words": [
+            "Butter",
+            "Sahne"
+          ]
+        },
+        {
+          "name": "Glutenhaltiges Getreide",
+          "words": [
+            "Weizenmehl"
+          ]
+        }
+      ],
+      "hints": [
+        "Bei +2°C bis +7°C mindestens haltbar bis: siehe Packung",
+        "Die Schale für den Wirsing ist äußerst vielseitig: Sie ermöglicht ein sicheres Einfrieren des Gemüses bis -40 °C, ein schonendes Garen im Ofen bei 220 °C ohne Folie, sowie ein bequemes Erhitzen in der Mikrowelle, da sie mikrowellengeeignet ist."
+      ],
+      "source": "01M6BNFP9C4DHDR8HDD96M8QZN.pdf"
+    },
+    "blaukraut": {
+      "labelName": "2 Portionen Blaukraut",
+      "aliases": [
+        "Blaukraut",
+        "Rotkohl"
+      ],
+      "icon": "icons/blaukraut.svg",
+      "weight": "230 g",
+      "portions": "2 Portionen",
+      "ingredients": "Rotkohl, Wasser, Brantweinessig, Entenschmalz, Zwiebeln, Apfel, Speisesalz, Gewürzextrakte, Süßungsmittel, Saccharin.",
+      "allergens": [],
+      "hints": [
+        "Bei +2°C bis +7°C mindestens haltbar bis: siehe Packung",
+        "Die Schale für das Blaukraut ist äußerst vielseitig: Sie ermöglicht ein sicheres Einfrieren des Gemüses bis -40 °C, ein schonendes Garen im Ofen bei 220 °C ohne Folie, sowie ein bequemes Erhitzen in der Mikrowelle, da sie mikrowellengeeignet ist."
+      ],
+      "source": "01M6BNFP7YRWZ21ZXQ0MVYNX66.pdf"
+    },
+    "kartoffelsalat-sud": {
+      "labelName": "Kartoffelsalat-Sud",
+      "aliases": [
+        "Kartoffelsalat-Sud",
+        "Kartoffelsalatsud"
+      ],
+      "icon": "icons/kartoffelsalat-sud.svg",
+      "weight": "0,5 Liter",
+      "portions": "für 2,5 Kilo Salatkartoffeln",
+      "ingredients": "Wasser; Brantweinessig; Salz; Pfeffer; Süßungsmittel (Natriumcyclamat, Natriumsaccharin); Pflanzliches Eiweiß; (Dinatriuminosinat)",
+      "allergens": [],
+      "hints": [
+        "mit Rapsöl und Zwiebeln verfeinern",
+        "Ungeöffnet kühl und dunkel lagern 4–15 °C",
+        "Nach dem Öffnen im Kühlschrank aufbewahren und innerhalb von 2 Wochen verbrauchen",
+        "Mindesthaltbarkeit: siehe Packung"
+      ],
+      "source": "01M6BNFR0ZS22KQW14GMJ3GH45.pdf"
+    },
+    "krenfleisch": {
+      "labelName": "Krenfleisch",
+      "aliases": [
+        "Krenfleisch"
+      ],
+      "icon": "icons/sauerbraten.svg",
+      "weight": "360 g",
+      "ingredients": "Rinder Tafelspitz, Soße (Wasser, Gemüse-Meerrettich (Meerrettich 65%, Wasser, Pflanzenöl, Speisesalz, Säuerungsmittel Citronensäure,Stabilisator Guarkernmehl, Süßstoff Saccharin-Natrium, Antoxidatiomsmittel, Natriummetabisulfit, natürliches Meerretticharoma), Sahne, Zwiebeln, Lauch, Karotten, Selerie, Lorbeere, Pfeffer, Reismehl, Palmfett.)",
+      "allergens": [
+        {
+          "name": "Schwefeldioxid/Sulfite",
+          "words": [
+            "Natriummetabisulfit"
+          ]
+        },
+        {
+          "name": "Milch",
+          "words": [
+            "Sahne"
+          ]
+        },
+        {
+          "name": "Sellerie",
+          "words": [
+            "Selerie"
+          ]
+        }
+      ],
+      "hints": [
+        "Bei +2°C bis +7°C mindestens haltbar bis: siehe Packung",
+        "Die Schale für das Krenfleisch ist äußerst vielseitig: Sie ermöglicht ein sicheres Einfrieren des Bratens bis -40 °C, ein schonendes Garen im Ofen bei 220 °C ohne Folie, sowie ein bequemes Erhitzen in der Mikrowelle, da sie mikrowellengeeignet ist."
+      ],
+      "source": "01M6BNFPE3KSNS0JW6ZQJWQ45K.pdf"
+    },
+    "kloesse": {
+      "_info": "Kein Etikett vorhanden – nur Icon. Angaben ergänzen, sobald ein Etikett vorliegt.",
+      "aliases": [
+        "Klöße",
+        "Kloesse",
+        "Klöse"
+      ],
+      "icon": "icons/kloesse.svg"
+    }
+  }
+}

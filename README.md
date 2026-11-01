@@ -89,3 +89,9 @@ den Code in einen Chunk legen und mit `[[$chunkName]]` einbinden.
 ```bash
 python3 -m http.server 8090   # dann http://localhost:8090/ öffnen
 ```
+
+## Gewicht, Zutaten & Icons (details.json)
+- `details.json` → `products.<schlüssel>`: `weight`, optional `portions`, `ingredients` (wörtlich vom Etikett), `allergens` (`[{ "name": "Milch", "words": ["Sahne"] }]` – die `words` werden in der Zutatenliste fett markiert), `hints`, `icon`, `aliases`.
+- Zuordnung zu `inventory.json`: optional `detailKey` am Artikel, sonst Name/Alias (Groß-/Kleinschreibung, Umlaute, Leer-/Bindestriche egal).
+- Icons liegen in `icons/*.svg`; ohne Eintrag wird das `emoji` aus inventory.json angezeigt. Ohne `weight`/`ingredients` ist die Karte nicht aufklappbar.
+- Test-Link: `index.html#open=Sauerbraten` öffnet die Details direkt.
