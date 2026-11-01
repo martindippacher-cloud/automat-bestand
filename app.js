@@ -12,7 +12,7 @@
     lastRefill: d.lastRefill || null, nextRefill: d.nextRefill || null, nextRefillNote: d.nextRefillNote || null,
     items: (Array.isArray(d.items) ? d.items : [])
       .map(i => ({ name: i.name, fach: i.fach || null, price: Number(i.price) || 0, quantity: Math.max(0, Number(i.quantity) || 0), category: i.category || null, emoji: i.emoji || null, updatedAt: i.updatedAt || d.updatedAt, status: status(Number(i.quantity)) }))
-      .sort((a, b) => String(a.fach || '').localeCompare(String(b.fach || ''), 'de', { numeric: true }))
+      .sort((a, b) => (b.price - a.price) || String(a.name).localeCompare(String(b.name), 'de'))
   });
   const $ = id => document.getElementById(id);
   const eur = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' });
