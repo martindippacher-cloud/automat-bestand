@@ -8,7 +8,7 @@
   const status = qty => (!qty || qty <= 0) ? 'ausverkauft' : (qty <= LOW_STOCK ? 'wenige' : 'verfuegbar');
   // Rohdaten aus inventory.json so aufbereiten wie früher server.js (/api/bestand)
   const normalize = d => ({
-    machineName: d.machineName, location: d.location, example: !!d.example, note: d.note || null, updatedAt: d.updatedAt,
+    machineName: d.machineName, location: d.location, example: !!d.example, note: d.note || null, updatedAt: d.updatedAt, checkedAt: d.checkedAt,
     lastRefill: d.lastRefill || null, nextRefill: d.nextRefill || null, nextRefillNote: d.nextRefillNote || null,
     items: (Array.isArray(d.items) ? d.items : [])
       .map(i => ({ name: i.name, fach: i.fach || null, price: Number(i.price) || 0, quantity: Math.max(0, Number(i.quantity) || 0), category: i.category || null, emoji: i.emoji || null, detailKey: i.detailKey || null, updatedAt: i.updatedAt || d.updatedAt, status: status(Number(i.quantity)) }))
@@ -87,8 +87,9 @@
     }
     $('refill').hidden = !last && !next;
 
-    const rel = relative(data.updatedAt);
-    $('updated').textContent = data.updatedAt ? fmtTime(data.updatedAt) + (rel ? ` (${rel})` : '') : '–';
+    const stamp = data.checkedAt || data.updatedAt;
+    const rel = relative(stamp);
+    $('updated').textContent = stamp ? fmtTime(stamp) + (rel ? ` (${rel})` : '') : '–';
 
     const counts = { verfuegbar: 0, wenige: 0, ausverkauft: 0 };
     data.items.forEach(i => counts[i.status]++);

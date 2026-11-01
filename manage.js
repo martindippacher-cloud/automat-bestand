@@ -7,6 +7,7 @@ const USAGE = `Verwendung:
   node manage.js list [--json]
   node manage.js set "<Name>" [--qty N] [--price 2.00] [--fach A1] [--category Getränke] [--emoji 🥤]
   node manage.js restock "<Name|Fach>" <Anzahl>      (Menge erhöhen, z. B. "Cola 5 aufgefüllt")
+  node manage.js heartbeat                          (nur 'zuletzt geprüft' setzen, Bestand unverändert)
   node manage.js sold "<Name|Fach>" [Anzahl]         (Menge verringern, Standard 1)
   node manage.js empty "<Name|Fach>"                 (auf ausverkauft setzen)
   node manage.js remove "<Name|Fach>"
@@ -75,6 +76,7 @@ const line = i => `${(i.fach || '-').padEnd(4)} ${(i.emoji || ' ')} ${i.name.pad
 
 function main() {
   const [cmd, ...rest] = process.argv.slice(2);
+  if (cmd === 'heartbeat') { store.heartbeat(); return console.log('Zuletzt geprüft aktualisiert.'); }
   const { pos, opt } = parse(rest);
   const data = store.load();
   const now = new Date().toISOString();
