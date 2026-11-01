@@ -32,6 +32,27 @@ node manage.js clear-examples                        # Beispiel-Artikel entferne
 node manage.js meta --name "Snack- & Getränkeautomat" --location "Vor der Gaststätte"
 ```
 
+### Befüllung (letzte / nächste)
+
+Zeitangaben immer in **Berliner Ortszeit** im Format `"YYYY-MM-DD HH:MM"`; gespeichert wird ISO mit korrektem Offset
+(Sommer-/Winterzeit automatisch, z. B. `2026-11-04T08:00:00+01:00`).
+
+```bash
+node manage.js refill-done                                   # Befüllung erledigt – jetzt
+node manage.js refill-done --at "2026-11-01 09:30"           # Befüllung erledigt – zu diesem Zeitpunkt
+node manage.js refill-next "2026-11-04 08:00"                # nächste Befüllung ankündigen
+node manage.js refill-next "2026-11-04 08:00" --note "Frische Braten"   # mit Hinweistext
+node manage.js refill-next --clear                           # Ankündigung entfernen
+```
+
+- In `inventory.json`: `lastRefill`, `nextRefill` (ISO-Zeitstempel oder `null`) und optional `nextRefillNote`.
+- Die Seite zeigt unter dem Kopf eine kleine Info-Box:
+  - „Letzte Befüllung: …“ nur, wenn `lastRefill` gesetzt ist.
+  - „Nächste Befüllung: …“ (plus Hinweis) nur, wenn `nextRefill` gesetzt ist **und noch in der Zukunft** liegt –
+    danach blendet sich die Zeile automatisch aus.
+- `refill-done` entfernt eine angekündigte Befüllung, die schon vorbei ist bzw. nicht nach der neuen Befüllung liegt.
+- Wie alle Befehle setzt auch dies `updatedAt` neu. Danach `./publish.sh` (oder `./update.sh refill-done --publish`).
+
 Kurzform mit `update.sh` (gleiche Befehle, optional gleich veröffentlichen):
 
 ```bash

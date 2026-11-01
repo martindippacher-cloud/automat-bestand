@@ -3,7 +3,8 @@
 #   ./update.sh restock "Wasser" 5
 #   ./update.sh sold 14 2
 #   ./update.sh empty "Klöße" --publish
-# Alle Befehle von manage.js funktionieren (set/restock/sold/empty/remove/rename/list/clear-examples/meta).
+#   ./update.sh refill-next "2026-11-04 08:00" --note "Frische Braten" --publish
+# Alle Befehle von manage.js funktionieren (set/restock/sold/empty/remove/rename/list/clear-examples/meta/refill-done/refill-next).
 set -euo pipefail
 cd "$(dirname "$0")"
 PUBLISH=0; ARGS=()

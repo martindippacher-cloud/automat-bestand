@@ -22,6 +22,11 @@
   <main class="wrap">
     <div id="example" class="notice" hidden></div>
 
+    <section id="refill" class="refill" hidden aria-live="polite">
+      <p id="refill-last" hidden>🔄 <span class="muted">Letzte Befüllung:</span> <strong id="refill-last-val"></strong></p>
+      <p id="refill-next" hidden>📅 <span class="muted">Nächste Befüllung:</span> <strong id="refill-next-val"></strong><span id="refill-next-note"></span></p>
+    </section>
+
     <section class="bar" aria-live="polite">
       <div>
         <span class="muted">Zuletzt aktualisiert</span>

@@ -3,6 +3,8 @@
   "location": "Vor der Gaststätte",
   "example": false,
   "updatedAt": "2026-11-01T12:04:20.962Z",
+  "lastRefill": null,
+  "nextRefill": null,
   "items": [
     {
       "name": "Sauerbraten",

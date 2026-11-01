@@ -9,6 +9,7 @@
   // Rohdaten aus inventory.json so aufbereiten wie früher server.js (/api/bestand)
   const normalize = d => ({
     machineName: d.machineName, location: d.location, example: !!d.example, note: d.note || null, updatedAt: d.updatedAt,
+    lastRefill: d.lastRefill || null, nextRefill: d.nextRefill || null, nextRefillNote: d.nextRefillNote || null,
     items: (Array.isArray(d.items) ? d.items : [])
       .map(i => ({ name: i.name, fach: i.fach || null, price: Number(i.price) || 0, quantity: Math.max(0, Number(i.quantity) || 0), category: i.category || null, emoji: i.emoji || null, updatedAt: i.updatedAt || d.updatedAt, status: status(Number(i.quantity)) }))
       .sort((a, b) => String(a.fach || '').localeCompare(String(b.fach || ''), 'de', { numeric: true }))
@@ -16,6 +17,8 @@
   const $ = id => document.getElementById(id);
   const eur = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' });
   const fmtTime = iso => new Date(iso).toLocaleString('de-DE', { timeZone: TZ, weekday: 'short', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }) + ' Uhr';
+  const fmtDate = iso => new Date(iso).toLocaleString('de-DE', { timeZone: TZ, weekday: 'short', day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) + ' Uhr';
+  const validDate = iso => iso && !isNaN(new Date(iso));
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   let data = null, filter = 'Alle';
 
@@ -35,6 +38,17 @@
     const ex = $('example');
     ex.hidden = !data.example;
     if (data.example) ex.textContent = '⚠ ' + (data.note || 'Beispieldaten – nicht der echte Bestand.');
+
+    // Befüllungs-Info: letzte nur wenn bekannt, nächste nur wenn angekündigt und noch in der Zukunft
+    const last = validDate(data.lastRefill), next = validDate(data.nextRefill) && new Date(data.nextRefill) > Date.now();
+    $('refill-last').hidden = !last;
+    if (last) $('refill-last-val').textContent = fmtDate(data.lastRefill);
+    $('refill-next').hidden = !next;
+    if (next) {
+      $('refill-next-val').textContent = fmtDate(data.nextRefill);
+      $('refill-next-note').textContent = data.nextRefillNote ? ' – ' + data.nextRefillNote : '';
+    }
+    $('refill').hidden = !last && !next;
 
     const rel = relative(data.updatedAt);
     $('updated').textContent = data.updatedAt ? fmtTime(data.updatedAt) + (rel ? ` (${rel})` : '') : '–';
