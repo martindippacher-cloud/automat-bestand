@@ -60,8 +60,8 @@
     const cats = ['Alle', ...new Set(data.items.map(i => i.category).filter(Boolean)), 'Verfügbar'];
     if (!cats.includes(filter)) filter = 'Alle';
     filter = 'Alle';
-    $('filters').hidden = true;
-    $('filters').innerHTML = '';
+    if ($('filters')) $('filters').hidden = true;
+    
 
     const items = data.items.filter(i => filter === 'Alle' || (filter === 'Verfügbar' ? i.status !== 'ausverkauft' : i.category === filter));
     const list = $('list');
@@ -94,7 +94,7 @@
     }
   }
 
-  $('filters').addEventListener('click', e => {
+  if ($('filters')) $('filters').addEventListener('click', e => {
     const b = e.target.closest('button[data-cat]');
     if (b) { filter = b.dataset.cat; render(); }
   });
