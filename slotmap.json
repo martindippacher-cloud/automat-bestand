@@ -1,0 +1,13 @@
+{
+  "comment": "Vensoft-Fachnummer (MDB Wahl) -> Artikelname auf der Kundenseite. Vensoft-Produktnamen sind nicht verlaesslich, daher zaehlt nur das Fach.",
+  "slots": {
+    "10": "Klöße", "11": "Klöße",
+    "12": "Blaukraut", "13": "Blaukraut",
+    "14": "Sauerbraten", "15": "Sauerbraten", "16": "Sauerbraten", "17": "Sauerbraten",
+    "18": "Kalbsbraten", "19": "Kalbsbraten", "20": "Kalbsbraten", "21": "Kalbsbraten",
+    "22": "Wirsing", "23": "Wirsing",
+    "24": "Salat", "25": "Salat",
+    "26": "Glasflasche Getränk", "27": "Glasflasche Getränk", "28": "Glasflasche Getränk", "29": "Glasflasche Getränk", "30": "Glasflasche Getränk", "31": "Glasflasche Getränk",
+    "32": "Wasser"
+  }
+}
