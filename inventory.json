@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-01T13:35:39.912Z",
+  "updatedAt": "2026-11-01T13:35:59.677Z",
   "lastRefill": "2026-10-30T10:00:00+01:00",
   "nextRefill": null,
   "items": [
@@ -80,11 +80,11 @@
     },
     {
       "name": "Kalbsbratenanschnitte",
-      "fach": "20",
-      "price": 11,
+      "fach": "16",
+      "price": 6.9,
       "quantity": 2,
       "emoji": "🥩",
-      "updatedAt": "2026-11-01T13:35:30.573Z"
+      "updatedAt": "2026-11-01T13:35:59.677Z"
     }
   ]
 }
