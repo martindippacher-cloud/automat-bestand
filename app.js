@@ -75,8 +75,8 @@
           <span class="pill ${i.status}">${LABEL[i.status]}</span>
         </div>
         <div class="right">
+          <span class="qty">${i.quantity > 0 ? '<b>' + i.quantity + '</b> Stk.' : '<b>0</b> Stk.'}</span>
           <span class="price">${eur.format(i.price)}</span>
-          <span class="qty">${i.quantity > 0 ? i.quantity + ' Stk.' : '–'}</span>
         </div>
       </li>`).join('') : '<li class="empty">Keine Artikel in dieser Auswahl.</li>';
   }

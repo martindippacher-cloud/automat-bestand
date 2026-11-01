@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-01T13:36:53.182Z",
+  "updatedAt": "2026-11-01T13:40:22.755Z",
   "lastRefill": "2026-10-30T10:00:00+01:00",
   "nextRefill": null,
   "items": [
@@ -50,33 +50,6 @@
       "category": "Beilagen",
       "emoji": "🥟",
       "updatedAt": "2026-11-01T13:35:30.490Z"
-    },
-    {
-      "name": "Salat",
-      "fach": "24",
-      "price": 3.5,
-      "quantity": 1,
-      "category": "Beilagen",
-      "emoji": "🥗",
-      "updatedAt": "2026-11-01T12:04:20.884Z"
-    },
-    {
-      "name": "Glasflasche Getränk",
-      "fach": "26",
-      "price": 2.5,
-      "quantity": 6,
-      "category": "Getränke",
-      "emoji": "🍺",
-      "updatedAt": "2026-11-01T12:04:20.925Z"
-    },
-    {
-      "name": "Wasser",
-      "fach": "32",
-      "price": 2,
-      "quantity": 1,
-      "category": "Getränke",
-      "emoji": "💧",
-      "updatedAt": "2026-11-01T12:04:20.962Z"
     },
     {
       "name": "Kalbsbratenanschnitte",
