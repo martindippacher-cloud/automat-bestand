@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-01T16:01:20.006Z",
+  "updatedAt": "2026-11-02T18:16:46.246Z",
   "lastRefill": "2026-10-30T10:00:00+01:00",
   "nextRefill": null,
   "items": [
@@ -46,10 +46,10 @@
       "name": "Klöße",
       "fach": "11",
       "price": 4,
-      "quantity": 1,
+      "quantity": 0,
       "category": "Beilagen",
       "emoji": "🥟",
-      "updatedAt": "2026-11-01T16:01:19.961Z"
+      "updatedAt": "2026-11-02T18:16:46.245Z"
     },
     {
       "name": "Kalbsrahmbraten Anschnitte",
@@ -65,8 +65,8 @@
       "price": 3.5,
       "quantity": 2,
       "emoji": "🥔",
-      "updatedAt": "2026-11-01T13:45:03.756Z"
+      "updatedAt": "2026-11-02T18:16:46.197Z"
     }
   ],
-  "checkedAt": "2026-11-02T17:49:18.578Z"
+  "checkedAt": "2026-11-02T18:16:46.246Z"
 }
