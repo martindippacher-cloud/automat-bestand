@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-02T18:16:46.246Z",
+  "updatedAt": "2026-11-02T18:16:54.741Z",
   "lastRefill": "2026-10-30T10:00:00+01:00",
   "nextRefill": null,
   "items": [
@@ -63,10 +63,10 @@
       "name": "Kartoffelsalat-Sud",
       "fach": "30",
       "price": 3.5,
-      "quantity": 2,
+      "quantity": 4,
       "emoji": "🥔",
-      "updatedAt": "2026-11-02T18:16:46.197Z"
+      "updatedAt": "2026-11-02T18:16:54.741Z"
     }
   ],
-  "checkedAt": "2026-11-02T18:16:46.246Z"
+  "checkedAt": "2026-11-02T18:16:54.741Z"
 }
