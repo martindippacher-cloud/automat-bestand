@@ -89,3 +89,13 @@ button.row:focus-visible{outline:3px solid var(--brand2);outline-offset:-3px;bor
   .price{font-size:.75rem}
   .bar{padding:12px}
 }
+
+/* Eingebettet (iframe auf dippacher.de): ohne eigenen Kopfbereich, bündig und schlicht */
+html.embed .hero,html.embed .foot .sep{display:none}
+html.embed main{margin-top:0}
+html.embed .wrap{max-width:none;padding:0 2px}
+html.embed body{font-family:'Source Sans Pro',system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+html.embed .bar{margin-top:2px}
+html.embed .foot{padding:14px 2px 8px;text-align:left}
+html.embed .list{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+html.embed .item.open{grid-column:1/-1}

@@ -182,3 +182,17 @@
   setInterval(() => { if (!document.hidden) load(); }, REFRESH_MS);
   setInterval(render, 30000); // "vor X Min." aktuell halten
 })();
+
+// Optional: Hoehe an die einbettende Seite melden (nur wenn dort ein passender Listener steht)
+(function(){
+  if (window.self === window.top) return;
+  var last = 0;
+  function post(){
+    var h = Math.ceil(document.documentElement.scrollHeight);
+    if (h !== last) { last = h; try { window.parent.postMessage({ type: 'automat-height', height: h }, '*'); } catch (e) {} }
+  }
+  window.addEventListener('load', post);
+  window.addEventListener('resize', post);
+  if (window.ResizeObserver) new ResizeObserver(post).observe(document.body);
+  setInterval(post, 1500);
+})();
