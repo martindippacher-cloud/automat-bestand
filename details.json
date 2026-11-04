@@ -290,11 +290,12 @@
       "age": 18,
       "source": "meibier.de (Herstellerangabe, kein Etikett)"
     },
-    "tafelwasser": {
-      "labelName": "Nawinta Tafelwasser medium",
+    "nawinta-mineralwasser": {
+      "labelName": "Nawinta Mineralwasser medium",
       "aliases": [
-        "Tafelwasser",
-        "Nawinta Tafelwasser"
+        "Nawinta Mineralwasser",
+        "Nawinta Wasser",
+        "Tafelwasser"
       ],
       "icon": null,
       "weight": "0,5 Liter",
