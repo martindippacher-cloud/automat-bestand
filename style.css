@@ -99,3 +99,5 @@ html.embed .bar{margin-top:2px}
 html.embed .foot{padding:14px 2px 8px;text-align:left}
 html.embed .list{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
 html.embed .item.open{grid-column:1/-1}
+
+.age{display:block;margin:3px 0 2px;font-size:.78rem;font-weight:600;color:#a13036}

@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-03T12:48:48.038Z",
+  "updatedAt": "2026-11-04T10:58:40.198Z",
   "lastRefill": "2026-10-30T10:00:00+01:00",
   "nextRefill": null,
   "items": [
@@ -66,7 +66,15 @@
       "quantity": 2,
       "emoji": "🥔",
       "updatedAt": "2026-11-03T11:53:21.944Z"
+    },
+    {
+      "name": "Salatdressing",
+      "fach": "28",
+      "price": 4,
+      "quantity": 12,
+      "emoji": "🥗",
+      "updatedAt": "2026-11-04T10:58:40.197Z"
     }
   ],
-  "checkedAt": "2026-11-04T10:49:21.252Z"
+  "checkedAt": "2026-11-04T10:58:40.198Z"
 }

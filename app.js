@@ -114,6 +114,7 @@
         <span class="info">
           <span class="name">${esc(i.name)}</span>
           <span class="meta">${meta}</span>
+          ${d && d.age ? `<span class="age">Erst ab ${esc(d.age)} Jahren – Alterskontrolle folgt am Automaten</span>` : ''}
           <span class="tags"><span class="pill ${i.status}">${LABEL[i.status]}</span>${info ? '<span class="more">Zutaten &amp; Gewicht<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M3 4.5l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>' : ''}</span>
         </span>
         <span class="right">
@@ -130,7 +131,7 @@
 
   async function loadDetails() {
     try {
-      const r = await fetch('details.json?v=5', { cache: 'no-cache' });
+      const r = await fetch('details.json?v=6', { cache: 'no-cache' });
       if (r.ok) details = await r.json();
     } catch (e) { /* ohne Details weiter mit Emojis */ }
   }

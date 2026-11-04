@@ -255,6 +255,22 @@
         "Klöse"
       ],
       "icon": "icons/kloesse.svg"
+    },
+    "salatdressing": {
+      "labelName": "Salatdressing nach Art des Hauses",
+      "aliases": [
+        "Salatdressing",
+        "Salatdressing nach Art des Hauses"
+      ],
+      "icon": "icons/kartoffelsalat-sud.svg",
+      "weight": "0,5 Liter",
+      "ingredients": "Wasser; Essig; Salz; Pfeffer; Süßungsmittel (Natriumcyclamat, Natriumsaccharin); Pflanzliches Eiweiß; (Dinatriuminosinat)",
+      "allergens": [],
+      "hints": [
+        "mit Rapsöl und Zwiebeln verfeinern",
+        "Bei +2°C bis +7°C mindestens haltbar bis: siehe Packung"
+      ],
+      "source": "bec4d5a20d8d48074038fc4c9d50f3bcebfafa0fc3250b4b7faaab552206fabc.pdf"
     }
   }
 }
