@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Bestand pflegen (Admin)</title>
+<style>
+*{box-sizing:border-box}body{font-family:system-ui,sans-serif;margin:0;padding:12px;max-width:760px;margin:auto;background:#f6f6f6;color:#222;font-size:17px}
+h1{font-size:1.3em}button,input,select{font-size:17px;min-height:46px;border-radius:8px;border:1px solid #aaa;padding:6px 10px}
+button{background:#fff;cursor:pointer}button.primary{background:#1a7f37;color:#fff;border-color:#1a7f37;font-weight:600}
+button.danger{color:#b00;border-color:#b00}.card{background:#fff;border:1px solid #ddd;border-radius:10px;padding:10px;margin:8px 0}
+.card.changed{border:2px solid #e69500;background:#fff8e6}.card.new{border:2px solid #1a7f37}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:6px}.name{font-weight:600}
+.qty{display:flex;gap:4px;align-items:center}.qty button{width:52px;font-size:22px}.qty input{width:70px;text-align:center}
+.price{width:100px}label{display:block;margin-top:6px}label input{width:100%}
+#msg{padding:10px;border-radius:8px;margin:8px 0;display:none}#msg.ok{display:block;background:#dff5e1}#msg.err{display:block;background:#fde2e2}#msg.info{display:block;background:#e7f0ff}
+.bar{position:sticky;bottom:0;background:#f6f6f6;padding:8px 0;display:flex;gap:8px}.bar button{flex:1}
+.hidden{display:none}small{color:#666}
+</style>
+</head>
+<body>
+<h1>Bestand pflegen</h1>
+<div id="msg"></div>
+<section id="tokenBox" class="card hidden">
+  <p><b>GitHub-Token benötigt.</b> So erstellst du es:</p>
+  <ol>
+    <li>Auf github.com einloggen → oben rechts Profilbild → <b>Settings</b></li>
+    <li>Ganz unten links <b>Developer settings</b> → <b>Personal access tokens</b> → <b>Fine-grained tokens</b> → <b>Generate new token</b></li>
+    <li>Name z. B. „Bestand Admin“, Ablaufdatum wählen</li>
+    <li><b>Repository access:</b> „Only select repositories“ → nur <b>automat-bestand</b></li>
+    <li><b>Permissions → Repository permissions → Contents: Read and write</b></li>
+    <li>Token erzeugen, kopieren und hier einfügen.</li>
+  </ol>
+  <p><small>Das Token wird nur in diesem Browser (localStorage) gespeichert.</small></p>
+  <label>Token<input id="tokenInput" type="password" autocomplete="off" placeholder="github_pat_…"></label>
+  <div class="row"><button class="primary" id="tokenSave">Token speichern</button></div>
+</section>
+<section id="main" class="hidden">
+  <div class="row"><button id="reload">↻ Neu laden</button><button id="tokenRemove" class="danger">Token entfernen</button></div>
+  <div id="list"></div>
+  <details class="card"><summary style="min-height:40px;font-weight:600">＋ Artikel hinzufügen</summary>
+    <label>Name<input id="nName"></label>
+    <label>Fach<input id="nFach" inputmode="numeric"></label>
+    <label>Preis (€)<input id="nPrice" inputmode="decimal"></label>
+    <label>Stück<input id="nQty" type="number" min="0" value="0"></label>
+    <label>Kategorie (optional)<input id="nCat" list="cats"></label><datalist id="cats"></datalist>
+    <label>Emoji (optional)<input id="nEmoji"></label>
+    <div class="row"><button class="primary" id="addBtn">Hinzufügen</button></div>
+  </details>
+  <div class="bar"><button id="discard">Verwerfen</button><button class="primary" id="saveBtn">Speichern</button></div>
+</section>
+<script src="admin.js"></script>
+</body>
+</html>
