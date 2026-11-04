@@ -289,6 +289,19 @@
       ],
       "age": 18,
       "source": "meibier.de (Herstellerangabe, kein Etikett)"
+    },
+    "tafelwasser": {
+      "labelName": "Nawinta Tafelwasser medium",
+      "aliases": [
+        "Tafelwasser",
+        "Nawinta Tafelwasser"
+      ],
+      "icon": null,
+      "weight": "0,5 Liter",
+      "ingredients": "",
+      "allergens": [],
+      "hints": [],
+      "source": "Foto vom Automaten"
     }
   }
 }

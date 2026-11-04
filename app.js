@@ -131,7 +131,7 @@
 
   async function loadDetails() {
     try {
-      const r = await fetch('details.json?v=7', { cache: 'no-cache' });
+      const r = await fetch('details.json?v=8', { cache: 'no-cache' });
       if (r.ok) details = await r.json();
     } catch (e) { /* ohne Details weiter mit Emojis */ }
   }
