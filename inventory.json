@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-04T10:58:40.198Z",
+  "updatedAt": "2026-11-04T11:01:36.558Z",
   "lastRefill": "2026-10-30T10:00:00+01:00",
   "nextRefill": null,
   "items": [
@@ -70,11 +70,20 @@
     {
       "name": "Salatdressing",
       "fach": "28",
-      "price": 4,
+      "price": 3,
       "quantity": 12,
       "emoji": "🥗",
-      "updatedAt": "2026-11-04T10:58:40.197Z"
+      "updatedAt": "2026-11-04T11:01:36.519Z"
+    },
+    {
+      "name": "Löwenbräu 1747 Original",
+      "fach": "26",
+      "price": 2.5,
+      "quantity": 8,
+      "category": "Getränke",
+      "emoji": "🍺",
+      "updatedAt": "2026-11-04T11:01:36.558Z"
     }
   ],
-  "checkedAt": "2026-11-04T10:58:40.198Z"
+  "checkedAt": "2026-11-04T11:01:36.558Z"
 }

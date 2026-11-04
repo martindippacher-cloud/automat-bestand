@@ -271,6 +271,24 @@
         "Bei +2°C bis +7°C mindestens haltbar bis: siehe Packung"
       ],
       "source": "bec4d5a20d8d48074038fc4c9d50f3bcebfafa0fc3250b4b7faaab552206fabc.pdf"
+    },
+    "loewenbraeu-1747-original": {
+      "labelName": "Zum Löwenbräu 1747 Original",
+      "aliases": [
+        "Löwenbräu 1747 Original",
+        "Zum Löwenbräu 1747 Original"
+      ],
+      "icon": null,
+      "weight": "0,5 Liter · 4,9 % Vol.",
+      "ingredients": "Wasser, Gerstenmalz, Hopfen, Hefe",
+      "allergens": [
+        "Gerste (Gluten)"
+      ],
+      "hints": [
+        "Preis inkl. Pfand"
+      ],
+      "age": 18,
+      "source": "meibier.de (Herstellerangabe, kein Etikett)"
     }
   }
 }
