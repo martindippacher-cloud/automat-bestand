@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-05T08:48:43.564Z",
+  "updatedAt": "2026-11-05T18:52:52.796Z",
   "lastRefill": "2026-10-30T10:00:00+01:00",
   "nextRefill": "2026-11-06T11:00:00+01:00",
   "items": [
@@ -63,9 +63,9 @@
       "name": "Kartoffelsalat-Sud",
       "fach": "30",
       "price": 3.5,
-      "quantity": 2,
+      "quantity": 0,
       "emoji": "🥔",
-      "updatedAt": "2026-11-03T11:53:21.944Z"
+      "updatedAt": "2026-11-05T18:52:52.795Z"
     },
     {
       "name": "Salatdressing",
@@ -94,6 +94,6 @@
       "updatedAt": "2026-11-04T11:24:55.052Z"
     }
   ],
-  "checkedAt": "2026-11-05T17:50:39.699Z",
+  "checkedAt": "2026-11-05T18:52:52.796Z",
   "nextRefillNote": "Wirsing und Sauerbraten werden wieder aufgefüllt"
 }
