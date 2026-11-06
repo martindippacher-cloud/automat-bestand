@@ -1,7 +1,6 @@
 {
   "comment": "Vensoft-Fachnummer (MDB Wahl) -> Artikelname auf der Kundenseite. Vensoft-Produktnamen sind nicht verlaesslich, daher zaehlt nur das Fach.",
   "slots": {
-    "10": "Klöße",
     "11": "Schmitt's Gerollte Klöße",
     "12": "Schmitt's Qualitätskloßteig fix+fertig",
     "13": "Blaukraut",
