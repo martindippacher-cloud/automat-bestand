@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-06T15:55:00.523Z",
+  "updatedAt": "2026-11-06T16:53:52.074Z",
   "lastRefill": "2026-11-06T14:45:00+01:00",
   "nextRefill": null,
   "items": [
@@ -10,28 +10,28 @@
       "name": "Sauerbraten",
       "fach": "14",
       "price": 10.5,
-      "quantity": 15,
+      "quantity": 14,
       "category": "Hauptgerichte",
       "emoji": "🍖",
-      "updatedAt": "2026-11-06T14:54:51.642Z"
+      "updatedAt": "2026-11-06T16:53:51.986Z"
     },
     {
       "name": "Kalbsrahmbraten",
       "fach": "18",
       "price": 11,
-      "quantity": 9,
+      "quantity": 8,
       "category": "Hauptgerichte",
       "emoji": "🥩",
-      "updatedAt": "2026-11-06T15:55:00.522Z"
+      "updatedAt": "2026-11-06T16:53:52.032Z"
     },
     {
       "name": "Wirsing",
       "fach": "22",
       "price": 4.9,
-      "quantity": 10,
+      "quantity": 9,
       "category": "Beilagen",
       "emoji": "🥬",
-      "updatedAt": "2026-11-06T15:55:00.404Z"
+      "updatedAt": "2026-11-06T16:53:52.073Z"
     },
     {
       "name": "Blaukraut",
@@ -88,10 +88,10 @@
       "name": "Schmitt's Gerollte Klöße",
       "fach": "11",
       "price": 4,
-      "quantity": 6,
+      "quantity": 5,
       "category": "Beilagen",
       "emoji": "🥟",
-      "updatedAt": "2026-11-06T09:28:16.560Z"
+      "updatedAt": "2026-11-06T16:53:51.939Z"
     },
     {
       "name": "Schmitt's Qualitätskloßteig fix+fertig",
@@ -103,5 +103,5 @@
       "updatedAt": "2026-11-06T09:28:16.560Z"
     }
   ],
-  "checkedAt": "2026-11-06T16:17:48.243Z"
+  "checkedAt": "2026-11-06T16:53:52.074Z"
 }
