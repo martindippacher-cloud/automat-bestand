@@ -313,17 +313,28 @@
       "icon": "icons/kloesse.svg",
       "weight": "600 g",
       "portions": "5 Klöße à 120 g",
+      "ingredients": "Speisekartoffeln, Kartoffelstärkemehl, Trinkwasser, Speisesalz, Klößbrot (Weizenmehl, Roggenmehl, Wasser, Backmittel, Hefe, Salz, Gerstenmalz), Konservierungsstoff: Kaliumsorbat, Säuerungsmittel: Zitronensäure, Antioxidationsmittel: Natriummetabisulfit",
       "allergens": [
         {
           "name": "Gluten",
-          "words": []
+          "words": [
+            "Weizenmehl",
+            "Roggenmehl",
+            "Gerstenmalz"
+          ]
+        },
+        {
+          "name": "Sulfite",
+          "words": [
+            "Natriummetabisulfit"
+          ]
         }
       ],
       "hints": [
         "gerollt mit Klößbrot",
         "glutenhaltig",
-        "Leicht gesalzenes Wasser in einem ausreichend großen Topf zum Kochen bringen, Klöße hineinlegen, kurz aufkochen und ca. 20 Min. mit Deckel ziehen lassen.",
-        "Mindestens haltbar bis: 8.12.26"
+        "Leicht gesalzenes Wasser in einem ausreichend großen Topf zum Kochen bringen, Klöße hineinlegen, kurz aufkochen und ca. 25 Min. mit Deckel ziehen lassen.",
+        "Bei +4 °C bis +7 °C mindestens haltbar bis: 8.12.26"
       ],
       "source": "Etikettfoto Fach 11"
     },
@@ -337,13 +348,22 @@
       ],
       "icon": "icons/kloesse.svg",
       "weight": "750 g",
-      "allergens": [],
+      "ingredients": "Speisekartoffeln roh und gekocht, Kartoffelstärkemehl, Trinkwasser, Speisesalz, Konservierungsstoff: Kaliumsorbat, Säuerungsmittel: Zitronensäure, Antioxidationsmittel: Natriummetabisulfit",
+      "allergens": [
+        {
+          "name": "Sulfite",
+          "words": [
+            "Natriummetabisulfit"
+          ]
+        }
+      ],
       "hints": [
         "100% VEGAN",
         "LAKTOSEFREI",
         "GLUTENFREI",
         "Den Teig mit den Händen durchkneten und zu Klößen beliebiger Größe formen. In die Mitte evtl. geröstete Weißbrotwürfel geben. Die Klöße in ausreichend kochendes Salzwasser legen und bei halb geöffnetem Deckel ca. 20 - 25 Minuten ziehen lassen. Nicht mehr kochen!",
-        "Mindestens haltbar bis: 8.12.26"
+        "100g enthalten durchschnittlich: Energie 461 kJ / 109 kcal, Fett 0,1 g, davon gesättigte Fettsäuren < 0,1 g, Kohlenhydrate 25,5 g, davon Zucker < 0,1 g, Eiweiß 1,4 g, Salz 1,1 g",
+        "Bei +4 °C bis +7 °C mindestens haltbar bis: 8.12.26"
       ],
       "source": "Etikettfoto Fach 12"
     }
