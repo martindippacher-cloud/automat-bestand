@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-06T09:34:20.139Z",
+  "updatedAt": "2026-11-06T10:23:46.822Z",
   "lastRefill": "2026-10-30T10:00:00+01:00",
   "nextRefill": "2026-11-06T11:00:00+01:00",
   "items": [
@@ -46,9 +46,9 @@
       "name": "Kalbsrahmbraten Anschnitte",
       "fach": "16",
       "price": 6.9,
-      "quantity": 2,
+      "quantity": 0,
       "emoji": "🥩",
-      "updatedAt": "2026-11-01T13:45:03.785Z"
+      "updatedAt": "2026-11-06T10:23:46.821Z"
     },
     {
       "name": "Kartoffelsalat-Sud",
@@ -103,6 +103,6 @@
       "updatedAt": "2026-11-06T09:28:16.560Z"
     }
   ],
-  "checkedAt": "2026-11-06T09:48:18.755Z",
+  "checkedAt": "2026-11-06T10:23:46.822Z",
   "nextRefillNote": "Wirsing und Sauerbraten werden wieder aufgefüllt"
 }
