@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-06T09:23:16.901Z",
+  "updatedAt": "2026-11-06T09:28:16.560Z",
   "lastRefill": "2026-10-30T10:00:00+01:00",
   "nextRefill": "2026-11-06T11:00:00+01:00",
   "items": [
@@ -28,28 +28,28 @@
       "name": "Wirsing",
       "fach": "22",
       "price": 4.9,
-      "quantity": 0,
+      "quantity": 17,
       "category": "Beilagen",
       "emoji": "🥬",
-      "updatedAt": "2026-11-01T16:01:19.919Z"
+      "updatedAt": "2026-11-06T09:28:16.560Z"
     },
     {
       "name": "Blaukraut",
-      "fach": "12",
+      "fach": "13",
       "price": 3,
       "quantity": 0,
       "category": "Beilagen",
       "emoji": "🥬",
-      "updatedAt": "2026-11-01T13:36:53.140Z"
+      "updatedAt": "2026-11-06T09:28:16.560Z"
     },
     {
       "name": "Klöße",
-      "fach": "11",
+      "fach": "10",
       "price": 4,
       "quantity": 0,
       "category": "Beilagen",
       "emoji": "🥟",
-      "updatedAt": "2026-11-02T18:16:46.245Z"
+      "updatedAt": "2026-11-06T09:28:16.560Z"
     },
     {
       "name": "Kalbsrahmbraten Anschnitte",
@@ -92,8 +92,26 @@
       "category": "Getränke",
       "emoji": "💧",
       "updatedAt": "2026-11-04T11:24:55.052Z"
+    },
+    {
+      "name": "Schmitt's Gerollte Klöße",
+      "fach": "11",
+      "price": 4,
+      "quantity": 6,
+      "category": "Beilagen",
+      "emoji": "🥟",
+      "updatedAt": "2026-11-06T09:28:16.560Z"
+    },
+    {
+      "name": "Schmitt's Qualitätskloßteig fix+fertig",
+      "fach": "12",
+      "price": 3,
+      "quantity": 5,
+      "category": "Beilagen",
+      "emoji": "🥟",
+      "updatedAt": "2026-11-06T09:28:16.560Z"
     }
   ],
-  "checkedAt": "2026-11-06T09:23:16.901Z",
+  "checkedAt": "2026-11-06T09:28:16.560Z",
   "nextRefillNote": "Wirsing und Sauerbraten werden wieder aufgefüllt"
 }

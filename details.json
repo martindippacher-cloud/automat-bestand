@@ -303,6 +303,49 @@
       "allergens": [],
       "hints": [],
       "source": "Foto vom Automaten"
+    },
+    "schmitts-gerollte-kloesse": {
+      "labelName": "Schmitt's Gerollte Klöße",
+      "aliases": [
+        "Schmitt's Gerollte Klöße",
+        "Gerollte Klöße"
+      ],
+      "icon": "icons/kloesse.svg",
+      "weight": "600 g",
+      "portions": "5 Klöße à 120 g",
+      "allergens": [
+        {
+          "name": "Gluten",
+          "words": []
+        }
+      ],
+      "hints": [
+        "gerollt mit Klößbrot",
+        "glutenhaltig",
+        "Leicht gesalzenes Wasser in einem ausreichend großen Topf zum Kochen bringen, Klöße hineinlegen, kurz aufkochen und ca. 20 Min. mit Deckel ziehen lassen.",
+        "Mindestens haltbar bis: 8.12.26"
+      ],
+      "source": "Etikettfoto Fach 11"
+    },
+    "schmitts-qualitaetsklossteig": {
+      "labelName": "Schmitt's Qualitätskloßteig fix+fertig",
+      "aliases": [
+        "Schmitt's Qualitätskloßteig fix+fertig",
+        "Schmitt's Qualitätsklößteig fix+fertig",
+        "Qualitätskloßteig",
+        "Qualitätskloßteig fix+fertig"
+      ],
+      "icon": "icons/kloesse.svg",
+      "weight": "750 g",
+      "allergens": [],
+      "hints": [
+        "100% VEGAN",
+        "LAKTOSEFREI",
+        "GLUTENFREI",
+        "Den Teig mit den Händen durchkneten und zu Klößen beliebiger Größe formen. In die Mitte evtl. geröstete Weißbrotwürfel geben. Die Klöße in ausreichend kochendes Salzwasser legen und bei halb geöffnetem Deckel ca. 20 - 25 Minuten ziehen lassen. Nicht mehr kochen!",
+        "Mindestens haltbar bis: 8.12.26"
+      ],
+      "source": "Etikettfoto Fach 12"
     }
   }
 }
