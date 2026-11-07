@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-07T17:22:22.405Z",
+  "updatedAt": "2026-11-07T17:53:09.597Z",
   "lastRefill": "2026-11-06T14:45:00+01:00",
   "nextRefill": null,
   "items": [
@@ -19,10 +19,10 @@
       "name": "Kalbsrahmbraten",
       "fach": "18",
       "price": 11,
-      "quantity": 3,
+      "quantity": 2,
       "category": "Hauptgerichte",
       "emoji": "🥩",
-      "updatedAt": "2026-11-07T17:22:22.404Z"
+      "updatedAt": "2026-11-07T17:53:09.546Z"
     },
     {
       "name": "Wirsing",
@@ -97,11 +97,11 @@
       "name": "Schmitt's Qualitätskloßteig fix+fertig",
       "fach": "12",
       "price": 3,
-      "quantity": 5,
+      "quantity": 4,
       "category": "Beilagen",
       "emoji": "🥟",
-      "updatedAt": "2026-11-06T09:28:16.560Z"
+      "updatedAt": "2026-11-07T17:53:09.596Z"
     }
   ],
-  "checkedAt": "2026-11-07T17:22:22.405Z"
+  "checkedAt": "2026-11-07T17:53:09.597Z"
 }
