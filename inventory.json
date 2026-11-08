@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-08T11:13:18.109Z",
+  "updatedAt": "2026-11-08T11:52:43.511Z",
   "lastRefill": "2026-11-06T14:45:00+01:00",
   "nextRefill": null,
   "items": [
@@ -10,10 +10,10 @@
       "name": "Sauerbraten",
       "fach": "14",
       "price": 10.5,
-      "quantity": 8,
+      "quantity": 6,
       "category": "Hauptgerichte",
       "emoji": "🍖",
-      "updatedAt": "2026-11-08T10:19:31.163Z"
+      "updatedAt": "2026-11-08T11:52:43.462Z"
     },
     {
       "name": "Kalbsrahmbraten",
@@ -62,9 +62,9 @@
       "name": "Salatdressing",
       "fach": "28",
       "price": 3,
-      "quantity": 5,
+      "quantity": 4,
       "emoji": "🥗",
-      "updatedAt": "2026-11-08T11:13:18.108Z"
+      "updatedAt": "2026-11-08T11:52:43.409Z"
     },
     {
       "name": "Löwenbräu 1747 Original",
@@ -88,10 +88,10 @@
       "name": "Schmitt's Gerollte Klöße",
       "fach": "11",
       "price": 4,
-      "quantity": 3,
+      "quantity": 1,
       "category": "Beilagen",
       "emoji": "🥟",
-      "updatedAt": "2026-11-08T10:19:31.244Z"
+      "updatedAt": "2026-11-08T11:52:43.510Z"
     },
     {
       "name": "Schmitt's Qualitätskloßteig fix+fertig",
@@ -103,5 +103,5 @@
       "updatedAt": "2026-11-07T17:53:09.596Z"
     }
   ],
-  "checkedAt": "2026-11-08T11:13:18.109Z"
+  "checkedAt": "2026-11-08T11:52:43.511Z"
 }
