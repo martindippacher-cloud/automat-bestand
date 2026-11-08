@@ -2,18 +2,18 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-08T14:49:18.067Z",
-  "lastRefill": "2026-11-06T14:45:00+01:00",
+  "updatedAt": "2026-11-08T14:57:58.161Z",
+  "lastRefill": "2026-11-08T15:57:00+01:00",
   "nextRefill": null,
   "items": [
     {
       "name": "Sauerbraten",
       "fach": "14",
       "price": 10.5,
-      "quantity": 0,
+      "quantity": 8,
       "category": "Hauptgerichte",
       "emoji": "🍖",
-      "updatedAt": "2026-11-08T14:49:17.982Z"
+      "updatedAt": "2026-11-08T14:57:58.161Z"
     },
     {
       "name": "Kalbsrahmbraten",
@@ -88,10 +88,10 @@
       "name": "Schmitt's Gerollte Klöße",
       "fach": "11",
       "price": 4,
-      "quantity": 1,
+      "quantity": 7,
       "category": "Beilagen",
       "emoji": "🥟",
-      "updatedAt": "2026-11-08T11:52:43.510Z"
+      "updatedAt": "2026-11-08T14:57:58.161Z"
     },
     {
       "name": "Schmitt's Qualitätskloßteig fix+fertig",
@@ -103,5 +103,5 @@
       "updatedAt": "2026-11-08T14:49:18.027Z"
     }
   ],
-  "checkedAt": "2026-11-08T14:49:18.067Z"
+  "checkedAt": "2026-11-08T14:57:58.161Z"
 }
