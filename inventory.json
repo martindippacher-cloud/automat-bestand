@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-08T16:51:43.164Z",
+  "updatedAt": "2026-11-09T12:10:19.627Z",
   "lastRefill": "2026-11-08T15:57:00+01:00",
   "nextRefill": null,
   "items": [
@@ -10,10 +10,10 @@
       "name": "Sauerbraten",
       "fach": "14",
       "price": 10.5,
-      "quantity": 6,
+      "quantity": 5,
       "category": "Hauptgerichte",
       "emoji": "🍖",
-      "updatedAt": "2026-11-08T16:51:43.086Z"
+      "updatedAt": "2026-11-09T12:10:19.520Z"
     },
     {
       "name": "Kalbsrahmbraten",
@@ -62,9 +62,9 @@
       "name": "Salatdressing",
       "fach": "28",
       "price": 3,
-      "quantity": 4,
+      "quantity": 3,
       "emoji": "🥗",
-      "updatedAt": "2026-11-08T11:52:43.409Z"
+      "updatedAt": "2026-11-09T12:10:19.627Z"
     },
     {
       "name": "Löwenbräu 1747 Original",
@@ -103,5 +103,5 @@
       "updatedAt": "2026-11-08T15:19:16.137Z"
     }
   ],
-  "checkedAt": "2026-11-08T19:47:17.562Z"
+  "checkedAt": "2026-11-09T12:10:19.627Z"
 }
