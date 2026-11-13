@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-12T12:10:45.267Z",
+  "updatedAt": "2026-11-13T08:18:12.133Z",
   "lastRefill": "2026-11-11T12:18:08+01:00",
   "nextRefill": null,
   "items": [
@@ -10,28 +10,28 @@
       "name": "Sauerbraten",
       "fach": "14",
       "price": 10.5,
-      "quantity": 2,
+      "quantity": 1,
       "category": "Hauptgerichte",
       "emoji": "🍖",
-      "updatedAt": "2026-11-12T08:15:10.926Z"
+      "updatedAt": "2026-11-13T08:18:12.053Z"
     },
     {
       "name": "Kalbsrahmbraten",
       "fach": "18",
       "price": 11,
-      "quantity": 17,
+      "quantity": 16,
       "category": "Hauptgerichte",
       "emoji": "🥩",
-      "updatedAt": "2026-11-12T12:10:45.267Z"
+      "updatedAt": "2026-11-13T08:18:12.096Z"
     },
     {
       "name": "Wirsing",
       "fach": "22",
       "price": 4.9,
-      "quantity": 14,
+      "quantity": 8,
       "category": "Beilagen",
       "emoji": "🥬",
-      "updatedAt": "2026-11-12T12:10:45.223Z"
+      "updatedAt": "2026-11-13T08:18:11.946Z"
     },
     {
       "name": "Blaukraut",
@@ -62,9 +62,9 @@
       "name": "Salatdressing",
       "fach": "28",
       "price": 3,
-      "quantity": 3,
+      "quantity": 2,
       "emoji": "🥗",
-      "updatedAt": "2026-11-09T12:10:19.627Z"
+      "updatedAt": "2026-11-13T08:18:12.133Z"
     },
     {
       "name": "Löwenbräu 1747 Original",
@@ -103,5 +103,5 @@
       "updatedAt": "2026-11-11T11:26:56.935Z"
     }
   ],
-  "checkedAt": "2026-11-12T16:15:00.600Z"
+  "checkedAt": "2026-11-13T08:18:12.133Z"
 }
