@@ -2,9 +2,9 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-14T07:23:14.636Z",
+  "updatedAt": "2026-11-14T09:11:53.771Z",
   "lastRefill": "2026-11-11T12:18:08+01:00",
-  "nextRefill": null,
+  "nextRefill": "2026-11-14T16:30:00+01:00",
   "items": [
     {
       "name": "Sauerbraten",
@@ -103,5 +103,6 @@
       "updatedAt": "2026-11-11T11:26:56.935Z"
     }
   ],
-  "checkedAt": "2026-11-14T08:46:47.340Z"
+  "checkedAt": "2026-11-14T09:11:53.771Z",
+  "nextRefillNote": "Wirsing und Sauerbraten werden heute ab 16:30 Uhr wieder befüllt."
 }
