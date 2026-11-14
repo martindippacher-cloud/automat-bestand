@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-14T13:42:26.508Z",
+  "updatedAt": "2026-11-14T13:42:44.842Z",
   "lastRefill": "2026-11-14T14:42:26+01:00",
   "nextRefill": null,
   "items": [
@@ -43,12 +43,12 @@
       "updatedAt": "2026-11-08T16:51:43.163Z"
     },
     {
-      "name": "Kalbsrahmbraten Anschnitte",
+      "name": "Sauerbraten-Anschnitte",
       "fach": "16",
       "price": 6.9,
-      "quantity": 0,
+      "quantity": 3,
       "emoji": "🥩",
-      "updatedAt": "2026-11-12T12:10:45.174Z"
+      "updatedAt": "2026-11-14T13:42:44.842Z"
     },
     {
       "name": "Kartoffelsalat-Sud",
@@ -103,5 +103,5 @@
       "updatedAt": "2026-11-11T11:26:56.935Z"
     }
   ],
-  "checkedAt": "2026-11-14T13:42:26.508Z"
+  "checkedAt": "2026-11-14T13:42:44.842Z"
 }
