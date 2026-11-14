@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-14T17:17:59.675Z",
+  "updatedAt": "2026-11-14T17:52:35.731Z",
   "lastRefill": "2026-11-14T14:42:26+01:00",
   "nextRefill": null,
   "items": [
@@ -28,10 +28,10 @@
       "name": "Wirsing",
       "fach": "22",
       "price": 4.9,
-      "quantity": 3,
+      "quantity": 1,
       "category": "Beilagen",
       "emoji": "🥬",
-      "updatedAt": "2026-11-14T17:17:59.470Z"
+      "updatedAt": "2026-11-14T17:52:35.730Z"
     },
     {
       "name": "Blaukraut",
@@ -103,5 +103,5 @@
       "updatedAt": "2026-11-14T17:17:59.635Z"
     }
   ],
-  "checkedAt": "2026-11-14T17:17:59.675Z"
+  "checkedAt": "2026-11-14T17:52:35.731Z"
 }
