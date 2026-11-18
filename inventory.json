@@ -2,9 +2,9 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-17T16:12:04.330Z",
+  "updatedAt": "2026-11-18T07:46:20.636Z",
   "lastRefill": "2026-11-14T14:42:26+01:00",
-  "nextRefill": null,
+  "nextRefill": "2026-11-18T18:00:00+01:00",
   "items": [
     {
       "name": "Sauerbraten",
@@ -103,5 +103,6 @@
       "updatedAt": "2026-11-15T11:42:26.143Z"
     }
   ],
-  "checkedAt": "2026-11-17T16:12:04.330Z"
+  "checkedAt": "2026-11-18T07:46:20.636Z",
+  "nextRefillNote": "Wirsing, Sauerbraten und Kalbsrahmbraten werden heute wieder befüllt."
 }
