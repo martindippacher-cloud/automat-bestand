@@ -2,36 +2,36 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-18T07:46:20.636Z",
-  "lastRefill": "2026-11-14T14:42:26+01:00",
-  "nextRefill": "2026-11-18T18:00:00+01:00",
+  "updatedAt": "2026-11-18T08:52:34.587Z",
+  "lastRefill": "2026-11-18T09:52:34+01:00",
+  "nextRefill": null,
   "items": [
     {
       "name": "Sauerbraten",
       "fach": "14",
       "price": 10.5,
-      "quantity": 0,
+      "quantity": 19,
       "category": "Hauptgerichte",
       "emoji": "🍖",
-      "updatedAt": "2026-11-17T12:23:17.006Z"
+      "updatedAt": "2026-11-18T08:52:34.383Z"
     },
     {
       "name": "Kalbsrahmbraten",
       "fach": "18",
       "price": 11,
-      "quantity": 2,
+      "quantity": 15,
       "category": "Hauptgerichte",
       "emoji": "🥩",
-      "updatedAt": "2026-11-17T16:12:04.328Z"
+      "updatedAt": "2026-11-18T08:52:34.463Z"
     },
     {
       "name": "Wirsing",
       "fach": "22",
       "price": 4.9,
-      "quantity": 0,
+      "quantity": 18,
       "category": "Beilagen",
       "emoji": "🥬",
-      "updatedAt": "2026-11-15T07:09:49.967Z"
+      "updatedAt": "2026-11-18T08:52:34.324Z"
     },
     {
       "name": "Blaukraut",
@@ -46,9 +46,9 @@
       "name": "Sauerbraten-Anschnitte",
       "fach": "16",
       "price": 6.9,
-      "quantity": 0,
+      "quantity": 2,
       "emoji": "🥩",
-      "updatedAt": "2026-11-14T17:17:59.515Z"
+      "updatedAt": "2026-11-18T08:52:34.423Z"
     },
     {
       "name": "Kartoffelsalat-Sud",
@@ -97,12 +97,11 @@
       "name": "Schmitt's Qualitätskloßteig fix+fertig",
       "fach": "12",
       "price": 3,
-      "quantity": 3,
+      "quantity": 5,
       "category": "Beilagen",
       "emoji": "🥟",
-      "updatedAt": "2026-11-15T11:42:26.143Z"
+      "updatedAt": "2026-11-18T08:52:34.503Z"
     }
   ],
-  "checkedAt": "2026-11-18T08:15:16.111Z",
-  "nextRefillNote": "Wirsing, Sauerbraten und Kalbsrahmbraten werden heute wieder befüllt."
+  "checkedAt": "2026-11-18T08:52:34.587Z"
 }
