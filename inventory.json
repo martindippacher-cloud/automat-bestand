@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-18T16:17:45.967Z",
+  "updatedAt": "2026-11-19T12:11:36.471Z",
   "lastRefill": "2026-11-18T09:52:34+01:00",
   "nextRefill": null,
   "items": [
@@ -10,28 +10,28 @@
       "name": "Sauerbraten",
       "fach": "14",
       "price": 10.5,
-      "quantity": 17,
+      "quantity": 15,
       "category": "Hauptgerichte",
       "emoji": "🍖",
-      "updatedAt": "2026-11-18T16:17:45.967Z"
+      "updatedAt": "2026-11-19T12:11:36.390Z"
     },
     {
       "name": "Kalbsrahmbraten",
       "fach": "18",
       "price": 11,
-      "quantity": 13,
+      "quantity": 11,
       "category": "Hauptgerichte",
       "emoji": "🥩",
-      "updatedAt": "2026-11-18T16:17:45.876Z"
+      "updatedAt": "2026-11-19T12:11:36.350Z"
     },
     {
       "name": "Wirsing",
       "fach": "22",
       "price": 4.9,
-      "quantity": 12,
+      "quantity": 9,
       "category": "Beilagen",
       "emoji": "🥬",
-      "updatedAt": "2026-11-18T14:14:54.093Z"
+      "updatedAt": "2026-11-19T12:11:36.431Z"
     },
     {
       "name": "Blaukraut",
@@ -46,17 +46,17 @@
       "name": "Sauerbraten-Anschnitte",
       "fach": "16",
       "price": 6.9,
-      "quantity": 2,
+      "quantity": 0,
       "emoji": "🥩",
-      "updatedAt": "2026-11-18T08:52:34.423Z"
+      "updatedAt": "2026-11-19T12:11:36.232Z"
     },
     {
       "name": "Kartoffelsalat-Sud",
       "fach": "30",
       "price": 3.5,
-      "quantity": 13,
+      "quantity": 12,
       "emoji": "🥔",
-      "updatedAt": "2026-11-11T11:18:08.238Z"
+      "updatedAt": "2026-11-19T12:11:36.471Z"
     },
     {
       "name": "Salatdressing",
@@ -103,5 +103,5 @@
       "updatedAt": "2026-11-18T08:52:34.503Z"
     }
   ],
-  "checkedAt": "2026-11-19T10:13:04.218Z"
+  "checkedAt": "2026-11-19T12:11:36.471Z"
 }
