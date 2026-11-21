@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-21T16:10:25.982Z",
+  "updatedAt": "2026-11-21T17:12:24.315Z",
   "lastRefill": "2026-11-18T09:52:34+01:00",
   "nextRefill": null,
   "items": [
@@ -22,7 +22,7 @@
       "quantity": 0,
       "category": "Hauptgerichte",
       "emoji": "🥩",
-      "updatedAt": "2026-11-21T16:10:25.981Z"
+      "updatedAt": "2026-11-21T17:12:24.313Z"
     },
     {
       "name": "Wirsing",
@@ -103,5 +103,5 @@
       "updatedAt": "2026-11-18T08:52:34.503Z"
     }
   ],
-  "checkedAt": "2026-11-21T16:42:12.588Z"
+  "checkedAt": "2026-11-21T17:12:24.315Z"
 }
