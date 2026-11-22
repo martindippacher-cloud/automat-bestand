@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-21T19:11:09.308Z",
+  "updatedAt": "2026-11-22T12:11:30.474Z",
   "lastRefill": "2026-11-18T09:52:34+01:00",
   "nextRefill": null,
   "items": [
@@ -97,11 +97,11 @@
       "name": "Schmitt's Qualitätskloßteig fix+fertig",
       "fach": "12",
       "price": 3,
-      "quantity": 5,
+      "quantity": 4,
       "category": "Beilagen",
       "emoji": "🥟",
-      "updatedAt": "2026-11-18T08:52:34.503Z"
+      "updatedAt": "2026-11-22T12:11:30.466Z"
     }
   ],
-  "checkedAt": "2026-11-22T11:43:39.687Z"
+  "checkedAt": "2026-11-22T12:11:30.474Z"
 }
