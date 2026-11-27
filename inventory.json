@@ -2,8 +2,8 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-27T10:14:41.672Z",
-  "lastRefill": "2026-11-24T12:35:05+01:00",
+  "updatedAt": "2026-11-27T10:56:02.818Z",
+  "lastRefill": "2026-11-27T11:56:02+01:00",
   "nextRefill": null,
   "items": [
     {
@@ -28,19 +28,19 @@
       "name": "Wirsing",
       "fach": "22",
       "price": 4.9,
-      "quantity": 0,
+      "quantity": 12,
       "category": "Beilagen",
       "emoji": "🥬",
-      "updatedAt": "2026-11-21T11:44:43.633Z"
+      "updatedAt": "2026-11-27T10:56:02.751Z"
     },
     {
       "name": "Blaukraut",
       "fach": "13",
       "price": 3,
-      "quantity": 0,
+      "quantity": 8,
       "category": "Beilagen",
       "emoji": "🥬",
-      "updatedAt": "2026-11-14T17:17:59.675Z"
+      "updatedAt": "2026-11-27T10:56:02.703Z"
     },
     {
       "name": "Sauerbraten-Anschnitte",
@@ -103,5 +103,5 @@
       "updatedAt": "2026-11-22T12:11:30.466Z"
     }
   ],
-  "checkedAt": "2026-11-27T10:14:41.672Z"
+  "checkedAt": "2026-11-27T10:56:02.818Z"
 }
