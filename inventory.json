@@ -2,7 +2,7 @@
   "machineName": "Gaststätte Dippacher Speisen Automat",
   "location": "",
   "example": false,
-  "updatedAt": "2026-11-28T17:13:54.139Z",
+  "updatedAt": "2026-11-28T17:40:23.019Z",
   "lastRefill": "2026-11-28T14:56:42+01:00",
   "nextRefill": null,
   "items": [
@@ -10,10 +10,10 @@
       "name": "Sauerbraten",
       "fach": "14",
       "price": 10.5,
-      "quantity": 11,
+      "quantity": 10,
       "category": "Hauptgerichte",
       "emoji": "🍖",
-      "updatedAt": "2026-11-28T16:11:31.226Z"
+      "updatedAt": "2026-11-28T17:40:23.017Z"
     },
     {
       "name": "Kalbsrahmbraten",
@@ -103,5 +103,5 @@
       "updatedAt": "2026-11-28T15:04:08.946Z"
     }
   ],
-  "checkedAt": "2026-11-28T17:13:54.139Z"
+  "checkedAt": "2026-11-28T17:40:23.019Z"
 }
